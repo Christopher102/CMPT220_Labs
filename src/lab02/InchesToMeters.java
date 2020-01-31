@@ -1,5 +1,5 @@
 package lab02;
-import java.util.*;
+import java.util.Scanner;
 
 public class InchesToMeters {
 
