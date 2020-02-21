@@ -5,15 +5,15 @@ import java.util.Random;
 
 public class RockPaperScissors {
     public static void main(String[] args) {
-        Random moveselect = new Random();
+        Random moveSelect = new Random();
          Scanner keyboard = new Scanner(System.in);
-         String playinput = "none";
-         String[] moves = {"rock", "paper", "scissors"};
-         String cpumove = "none";
-         while(true){
-             System.out.println("Please input your next move:");
-             playinput = keyboard.next();
-             cpumove = moves[moveselect.nextInt(2)];
+             String playinput = "none";
+             String[] moves = {"rock", "paper", "scissors"};
+             String cpumove = "none";
+             while(true){
+                 System.out.println("Please input your next move:");
+                 playinput = keyboard.next();
+                 cpumove = moves[moveSelect.nextInt(2)];
              if(playinput.equals("rock")){
                  if(cpumove.equals("rock")){
                      System.out.println("The computer throws rock!");
