@@ -8,7 +8,9 @@ public class Test {
 
         System.out.println(square.getArea());
         System.out.println(oval.getArea());
-
+        /**
+         * Testing toString because it goes faster here.
+         */
         System.out.println(square.toString());
         System.out.println(oval.toString());
 
